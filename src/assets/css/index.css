@@ -1,0 +1,70 @@
+html {
+    font-size: 16px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+ 
+  html,
+  body {
+    /* direction: ltr; */
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+    position: relative !important;
+    color: #000000;
+    font-family: 'Helvetica',sans-serif !important;
+    background-color:#f9feff !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  
+  /* Change the white to any color ;) */
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+  }
+  
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+    -webkit-filter: none;
+    filter: none;
+  }
+  
+  .ltr-position {
+    direction: ltr !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f7f9fc;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 12px;
+  }
+  
+  a,
+  a:active,
+  a:hover {
+    /* color: #2594A2 !important; */
+    cursor: pointer;
+  }
+  
